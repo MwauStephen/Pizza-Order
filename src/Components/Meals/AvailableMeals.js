@@ -1,4 +1,5 @@
 import React from "react";
+import MealItem from "./MealsItem";
 import styles from "./AvailableMeals.module.css";
 
 const DUMMY_MEALS = [
@@ -29,7 +30,10 @@ const DUMMY_MEALS = [
 ];
 
 const AvailableMeals = (props) => {
-  return;
+  const mealsList = DUMMY_MEALS.map((item) => {
+    <MealItem />;
+  });
+  return <ul>{mealsList}</ul>;
 };
 
 export default AvailableMeals;
