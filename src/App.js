@@ -1,8 +1,14 @@
-import React from "react";
+import React, { Fragment } from "react";
 import Header from "./Components/Layout/Header";
+import MealsSummary from "./Components/Meals/MealsSummary";
 
 const App = () => {
-  return <Header />;
+  return (
+    <Fragment>
+      <Header />
+      <MealsSummary />
+    </Fragment>
+  );
 };
 
 export default App;
