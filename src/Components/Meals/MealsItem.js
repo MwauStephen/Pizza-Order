@@ -1,12 +1,13 @@
 import React from "react";
+import styles from "./MealsItem.module.css";
 
 const MealItem = (props) => {
   return (
-    <li>
+    <li className={styles.meal}>
       <div>
         <h3>{props.name}</h3>
-        <div>{props.description}</div>
-        <div>{props.price}</div>
+        <div className={styles.description}>{props.description}</div>
+        <div className={styles.price}>{props.price}</div>
         <div></div>
       </div>
     </li>
