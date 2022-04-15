@@ -1,5 +1,5 @@
 import React from "react";
-import MealItem from "./MealsItem";
+import MealItem from "./MealItem";
 import Card from "../UI/Card";
 import styles from "./AvailableMeals.module.css";
 
