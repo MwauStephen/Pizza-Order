@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import MealsSummary from "./MealsSummary";
 
 const Meals = () => {
   return (
