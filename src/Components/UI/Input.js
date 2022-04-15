@@ -1,7 +1,8 @@
 import React from "react";
+import styles from "./Input.module.css";
 
 const Input = (props) => {
-  <div>
+  <div className={styles.input}>
     <label htmlFor={props.id}>{props.label}</label>
     <input />
   </div>;
