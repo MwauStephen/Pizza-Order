@@ -1,7 +1,8 @@
 import React from "react";
+import MealItemForm from "./MealItemForm";
 import styles from "./MealsItem.module.css";
 
-const MealItem = (props) => {
+const MealsItem = (props) => {
   const price = `$ ${props.price.toFixed(2)}`;
 
   return (
@@ -10,10 +11,12 @@ const MealItem = (props) => {
         <h3>{props.name}</h3>
         <div className={styles.description}>{props.description}</div>
         <div className={styles.price}>{price}</div>
-        <div></div>
+        <div>
+          <MealItemForm />
+        </div>
       </div>
     </li>
   );
 };
 
-export default MealItem;
+export default MealsItem;
