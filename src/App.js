@@ -6,7 +6,7 @@ const App = () => {
   return (
     <Fragment>
       <Header />
-      <MealsSummary />
+     
     </Fragment>
   );
 };
