@@ -1,7 +1,11 @@
 import React, { Fragment } from "react";
 
 const Meals = () => {
-  <Fragment></Fragment>;
+  return (
+    <Fragment>
+      <MealsSummary />
+    </Fragment>
+  );
 };
 
 export default Meals;
