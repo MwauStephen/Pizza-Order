@@ -1,13 +1,14 @@
 import React, { Fragment } from "react";
+import styles from "./Header.module.css";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <Fragment>
-      <header>
+      <header >
         <h1>Pizza app</h1>
       </header>
       <div>
-        <img src="" alt="A " />
+        <img src="" alt="Delicous pizza food" />
       </div>
     </Fragment>
   );
