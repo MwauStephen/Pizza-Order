@@ -1,9 +1,10 @@
 import React from "react";
+import CartIcon from "../Cart/CartIcon";
 
 const HeaderCartButton = (props) => {
   return (
     <button>
-      <span>icon</span>
+      <CartIcon />
       <span>Your cart</span>
       <span>3</span>
     </button>
