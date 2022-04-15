@@ -1,7 +1,16 @@
-import React from "react";
+import React, { Fragment } from "react";
 
 const Header = () => {
-  return;
+  return (
+    <Fragment>
+      <header>
+        <h1>Pizza app</h1>
+      </header>
+      <div>
+        <img src="" alt="A pizza food application" />
+      </div>
+    </Fragment>
+  );
 };
 
 export default Header;
