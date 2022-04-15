@@ -1,7 +1,8 @@
 import React from "react";
+import Header from "./Components/Layout/Header";
 
 const App = () => {
-  return <h1>Welcome to React js</h1>;
+  return <Header />;
 };
 
 export default App;
