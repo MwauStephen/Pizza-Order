@@ -7,7 +7,7 @@ const Header = () => {
         <h1>Pizza app</h1>
       </header>
       <div>
-        <img src="" alt="A pizza food application" />
+        <img src="" alt="A " />
       </div>
     </Fragment>
   );
