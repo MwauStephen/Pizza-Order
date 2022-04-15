@@ -47,7 +47,7 @@ const AvailableMeals = (props) => {
   return (
     <section className={styles.meals}>
       <Card>
-        <ul>{mealsList}</ul>;
+        <ul>{mealsList}</ul>
       </Card>
     </section>
   );
