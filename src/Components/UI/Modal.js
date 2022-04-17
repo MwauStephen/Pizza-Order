@@ -1,4 +1,5 @@
 import React from "react";
+import { ReactDOM } from "react";
 import styles from "./Modal.module.css";
 
 const BackDrop = () => {
