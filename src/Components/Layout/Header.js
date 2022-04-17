@@ -12,7 +12,7 @@ const Header = (props) => {
           <img src={logo} alt="food logo" className={styles.logo} />
           Pizza app
         </h1>
-        <HeaderCartButton />
+        <HeaderCartButton onClickHandler={props.onShowCart} />
       </header>
       <div className={styles["main-image"]}>
         <img src={mealImg} alt="Delicous pizza food" />
