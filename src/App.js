@@ -5,6 +5,10 @@ import Cart from "./Components/Cart/Cart";
 
 const App = () => {
   const [cartIsShown, setCartIsShwown] = useState(false);
+
+  const showCartHandler = () => {
+    setCartIsShwown(true);
+  };
   return (
     <Fragment>
       <Cart />
