@@ -11,7 +11,12 @@ const ModalOverlay = () => {
 };
 
 const Modal = () => {
-  return;
+  return (
+    <Fragment>
+      {ReactDOM.createPortal(<BackDrop />)}
+      {ReactDOM.createPortal(<ModalOverlay>{props.children}</ModalOverlay>)}
+    </Fragment>
+  );
 };
 
 export default Modal;
