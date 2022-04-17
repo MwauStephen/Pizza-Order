@@ -4,7 +4,7 @@ import CartContext from "./Cart-context";
 const CartProvider = () => {
   // concrete object values
 
-  <CartContext></CartContext>;
+  <CartContext>{props.children}</CartContext>;
 };
 
 export default CartProvider;
