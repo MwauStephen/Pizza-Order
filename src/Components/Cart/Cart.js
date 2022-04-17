@@ -3,7 +3,7 @@ import styles from "./Cart.module.css";
 
 const Cart = () => {
   const cartItems = (
-    <ul>
+    <ul className={styles["cart-items"]}>
       {[{ id: "c1", name: "sushii", amount: 2, price: 12.99 }].map((item) => {
         <li>{item.name}</li>;
       })}
@@ -17,8 +17,8 @@ const Cart = () => {
         <span>35.99</span>
       </div>
       <div>
-        <button></button>
-        <button></button>
+        <button>Close</button>
+        <button>Order</button>
       </div>
     </div>
   );
