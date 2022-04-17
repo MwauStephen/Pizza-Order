@@ -12,13 +12,13 @@ const Cart = () => {
   return (
     <div>
       {cartItems}
-      <div>
+      <div className={styles.total}>
         <span>Total Amount</span>
         <span>35.99</span>
       </div>
-      <div>
-        <button>Close</button>
-        <button>Order</button>
+      <div className={styles.actions}>
+        <button className={styles["button--alt"]}>Close</button>
+        <button className={styles.button}>Order</button>
       </div>
     </div>
   );
