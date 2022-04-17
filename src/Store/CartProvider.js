@@ -12,7 +12,7 @@ const CartProvider = () => {
     removeItem: removeItemToCartHandler,
   };
 
-  <CartContext>{props.children}</CartContext>;
+  <CartContext value={cartContext}>{props.children}</CartContext>;
 };
 
 export default CartProvider;
