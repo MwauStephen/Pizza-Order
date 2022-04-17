@@ -9,6 +9,10 @@ const App = () => {
   const showCartHandler = () => {
     setCartIsShwown(true);
   };
+
+  const hideCartHandler = () => {
+    setCartIsShwown(false);
+  };
   return (
     <Fragment>
       <Cart />
