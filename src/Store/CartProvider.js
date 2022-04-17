@@ -3,11 +3,13 @@ import CartContext from "./Cart-context";
 
 const CartProvider = () => {
   // concrete object values
+  const addItemToCartHandler = () => {};
+  const removeItemToCartHandler = () => {};
   const cartContext = {
     item: [],
     totalAmount: 0,
-    addItem:,
-    removeItem:,
+    addItem: addItemToCartHandler,
+    removeItem: removeItemToCartHandler,
   };
 
   <CartContext>{props.children}</CartContext>;
