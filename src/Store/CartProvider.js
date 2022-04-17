@@ -1,7 +1,14 @@
 import React, { useReducer } from "react";
 import CartContext from "./Cart-context";
 
+
+
+
+
 const CartProvider = (props) => {
+  //  reducer state
+  const [] = useReducer();
+
   // concrete object values
   const addItemToCartHandler = (item) => {};
   const removeItemToCartHandler = (id) => {};
