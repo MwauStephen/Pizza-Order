@@ -1,11 +1,12 @@
 import React from "react";
+import styles from "./Modal.module.css";
 
 const BackDrop = () => {
-  return <div>{props.children}</div>;
+  return <div className={styles.backdrop}>{props.children}</div>;
 };
 
 const ModalOverlay = () => {
-  return <div>{props.children}</div>;
+  return <div className={styles.modal}>{props.children}</div>;
 };
 
 const Modal = () => {
