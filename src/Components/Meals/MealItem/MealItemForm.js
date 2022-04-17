@@ -10,6 +10,14 @@ const MealItemForm = (props) => {
     const enteredAmount = amountInputRef.current.value;
     const enteredAmountNumber = +enteredAmount;
     console.log(enteredAmount);
+    // validate inputs
+    if (
+      enteredAmount.trim().length === 0 ||
+      enteredAmountNumber < 1 ||
+      enteredAmountNumber > 5
+    ) {
+      return;
+    }
   };
   return (
     <form className={styles.form} onSubmit={submitHandler}>
